@@ -99,6 +99,49 @@ export default function Home() {
           <p className="font-bold text-[20px] mb-3">Then change the text on 32 row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-text.png'} />
         </li>
+
+      </ul>
+
+      <h1 className="text-[30px] font-bold" id="change-technologys">Technology Section</h1>
+      <p className="text-[18px] mb-[50px]">Now we will change the data of the technology section</p>
+
+      <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">If you wanna change that texts</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/technology.png'} />
+          <p className="font-bold text-[20px] mb-3">Click folders and file that have shown on this photo</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-folders.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 75 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/technology-texts.png'} />
+        </li>
+    
+      </ul>
+
+      <h1 className="text-[30px] font-bold" id="change-technologys">Service Section</h1>
+      <p className="text-[18px] mb-[50px]">Now we will change the data of the service section</p>
+
+      <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">If you wanna change that text</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/service-text.png'} />
+          <p className="font-bold text-[20px] mb-3">Click folders and file that have shown on this photo</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-folders.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 86 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/service-texts.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 86 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/service-texts.png'} />
+        </li>
     
       </ul>
     </section>
