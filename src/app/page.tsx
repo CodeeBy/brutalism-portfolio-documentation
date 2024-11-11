@@ -89,10 +89,17 @@ export default function Home() {
       <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
 
         <li>
-          <p className="font-bold text-[20px] mb-3">Click on the folders and file that have shown in photo</p>
-          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/navbar-files.png'} />
+          <p className="font-bold text-[20px] mb-3">If you wanna change that texts</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-texts.png'} />
+          <p className="font-bold text-[20px] mb-3">Click folders and file that have shown on this photo</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-folders.png'} />
         </li>
 
+        <li>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 32 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-text.png'} />
+        </li>
+    
       </ul>
     </section>
   );
