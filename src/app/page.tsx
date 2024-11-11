@@ -121,7 +121,7 @@ export default function Home() {
     
       </ul>
 
-      <h1 className="text-[30px] font-bold" id="change-technologys">Service Section</h1>
+      <h1 className="text-[30px] font-bold" id="service-section">Service Section</h1>
       <p className="text-[18px] mb-[50px]">Now we will change the data of the service section</p>
 
       <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
@@ -139,11 +139,108 @@ export default function Home() {
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">Then change the text on 86 row in page.tsx</p>
-          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/service-texts.png'} />
+          <p className="font-bold text-[20px] mb-3">Now I will mark the texts on the website with numbers. <br />
+                                                    And in this order, I will write down where those texts are located in the code, and you can change those texts without problems, God willing.
+          </p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/service.png'} />
         </li>
-    
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">1. 101 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/first-sevice.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">2. 105 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/second-service.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">3. 114 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/third-section.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">4. 122 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/fourth-section.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">5. 133 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/fiveth-section.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">6. 141 row in page.tsx</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/sixth-section.png'} />
+        </li> 
       </ul>
+
+      <h1 className="text-[30px] font-bold" id="my-portfolio-section">Portfolio Section</h1>
+      <p className="text-[18px] mb-[50px]">Now we will change the data of the portfolio section</p>
+
+      <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Here is the location of the texts (page.tsx)</p>
+          <Image width={600} height={300} className="w-full" alt="folders and file photo" src={'/my-portfolio.png'} />
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/portfolio-1.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Now we will see how to edit portfolios and add more portfolios. <br />
+                                                    You can see prtfolio cards on 161 row. You can change the title, description
+          </p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/port-card.png'} />
+          <p className="font-bold text-[20px] mb-3">If you want to change portfolio website photos you have to save it png format and you have to save it in public\images folder by naming project-[number].png if the image of the project is not visible, check here that you wrote the image url correctly</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/project-images.png'} />
+        </li>
+
+      </ul>
+
+      <h1 className="text-[30px] font-bold" id="client-section">Client Section</h1>
+      <p className="text-[18px] mb-[50px]">So now you know how to change them all</p>
+
+      <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Text 173-row</p>
+          <Image width={600} height={300} className="w-full" alt="folders and file photo" src={'/clients.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Editing my client comments is similar to the card section in my portfolio</p>
+          <Image width={600} height={300} className="w-full" alt="folders and file photo" src={'/clients-coment.png'} />
+        </li>
+
+      </ul>
+
+      <h1 className="text-[30px] font-bold" id="start-your-design">Start your design</h1>
+      <p className="font-bold text-[20px] mb-7">And the last part contains all the texts and you can change them if you want. By changing the link given to the href in the Send us message section, you can control which link it will redirect to when you click the button, and in that section you can write down your telegram or the link where they can contact you.</p>
+
+      <h1 className="text-[30px] font-bold" id="footer-section">Footer section</h1>
+      <p className="text-[18px] mb-[50px]">Now we will change the data of the Fotter section</p>
+
+      <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">Click on the folders and file that have shown in photo</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/footer.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">If you want to change logo and portfolio name then you have to change the (znis) text to yours and replace your logo to public\images file that have shown in second photo. Your photo has to svg format</p>
+          <Image width={600} height={300} className="w-full mb-3" alt="navbar logo and portfolio name photo" src={'/footer-text.png'} />
+          <Image width={600} height={300} className="w-full" alt="changing logo" src={'/logo.png'} />
+        </li>
+
+        <li>
+          <p className="font-bold text-[20px] mb-3">You can change the texts in navbar section if you want</p>
+          <Image width={600} height={300} className="w-full" alt="navbar logo and portfolio name photo" src={'/navbar-texts.png'} />
+        </li>
+
+      </ul>
+
     </section>
   );
 }
