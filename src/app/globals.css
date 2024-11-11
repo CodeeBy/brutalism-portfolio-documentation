@@ -4,15 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body,
+html {
     display: flex;
     justify-content: start;
     align-items: start;
     font-family: "Montserrat", sans-serif;
     background-color: #09090b;
     color: white;
-    animation: welcome-animation 1s ease-in-out;
     scroll-behavior: smooth;
+}
+
+body {
+    animation: welcome-animation 1s ease-in-out;
 }
 
 @keyframes welcome-animation {

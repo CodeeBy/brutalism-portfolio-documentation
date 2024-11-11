@@ -21,11 +21,6 @@ const SideBar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#change-photos" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white transition-[background-color] duration-500 hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <span className="ms-3">Change photos</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="#hero-section" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white transition-[background-color] duration-500 hover:bg-gray-100 dark:hover:bg-gray-700 group">
                             <span className="ms-3">Hero section</span>
                         </a>
