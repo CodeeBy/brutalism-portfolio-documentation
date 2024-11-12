@@ -4,7 +4,7 @@ import React from 'react'
 const SideBar = () => {
   return (
     <section className='w-[270px] mr-[0.5rem]'>
-        <aside id="logo-sidebar" className="fixed border-r-[1px] border-gray-400 top-0 left-0 z-40 w-[270px] h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        <aside id="logo-sidebar" className="fixed border-r-[1px] border-gray-400 top-0 left-0 z-40 w-[270px] h-screen transition-transform -translate-x-full lg:translate-x-0" aria-label="Sidebar">
             <div className="h-full px-3 py-8 overflow-y-auto bg-gray-50 dark:bg-[#09090b]">
                 <a href="https://flowbite.com/" className="flex items-center ps-2.5 mb-5">
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><span className='text-[#d1c4e9]'>Codee</span> By{`>`}</span>

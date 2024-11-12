@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="px-[60px] py-[50px] max-w-[1024px]">
+    <section className="px-[20px] lg:px-[60px] py-[20px] lg:py-[50px] max-w-[1024px]">
       <h1 className="text-[30px] font-bold">Hi 👋 Welcome to Documentation page!</h1>
       <p className="text-[18px] mb-[50px]">Let's start editing your <Badge text={'portfolio'} /></p>
       <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
@@ -20,7 +20,7 @@ export default function Home() {
         </li>
         
         <li>
-          <Image width={500} height={300} className="w-[46rem] h-[500px] object-top object-cover" alt="vscode" src={'/vscode.png'} />
+          <Image width={500} height={300} className="w-[46rem] object-top object-cover" alt="vscode" src={'/vscode.png'} />
         </li>
 
         <li>
