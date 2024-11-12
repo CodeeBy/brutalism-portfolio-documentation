@@ -96,7 +96,7 @@ export default function Home() {
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">Then change the text on 32 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 32th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/hero-text.png'} />
         </li>
 
@@ -115,7 +115,7 @@ export default function Home() {
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">Then change the text on 75 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 75th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/technology-texts.png'} />
         </li>
     
@@ -134,7 +134,7 @@ export default function Home() {
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">Then change the text on 86 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">Then change the text on 86th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/service-texts.png'} />
         </li>
 
@@ -146,32 +146,32 @@ export default function Home() {
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">1. 101 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">1. 101th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/first-sevice.png'} />
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">2. 105 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">2. 105th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/second-service.png'} />
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">3. 114 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">3. 114th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/third-section.png'} />
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">4. 122 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">4. 122th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/fourth-section.png'} />
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">5. 133 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">5. 133th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/fiveth-section.png'} />
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">6. 141 row in page.tsx</p>
+          <p className="font-bold text-[20px] mb-3">6. 141th row in page.tsx</p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/sixth-section.png'} />
         </li> 
       </ul>
@@ -189,7 +189,7 @@ export default function Home() {
 
         <li>
           <p className="font-bold text-[20px] mb-3">Now we will see how to edit portfolios and add more portfolios. <br />
-                                                    You can see prtfolio cards on 161 row. You can change the title, description
+                                                    You can see prtfolio cards on 161th row. You can change the title, description
           </p>
           <Image width={600} height={300} className="w-full mb-3" alt="folders and file photo" src={'/port-card.png'} />
           <p className="font-bold text-[20px] mb-3">If you want to change portfolio website photos you have to save it png format and you have to save it in public\images folder by naming project-[number].png if the image of the project is not visible, check here that you wrote the image url correctly</p>
@@ -204,7 +204,7 @@ export default function Home() {
       <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
 
         <li>
-          <p className="font-bold text-[20px] mb-3">Text 173-row</p>
+          <p className="font-bold text-[20px] mb-3">Text 173th-row</p>
           <Image width={600} height={300} className="w-full" alt="folders and file photo" src={'/clients.png'} />
         </li>
 
@@ -218,7 +218,7 @@ export default function Home() {
       <h1 className="text-[30px] font-bold" id="start-your-design">Start your design</h1>
       <p className="font-bold text-[20px] mb-7">And the last part contains all the texts and you can change them if you want. By changing the link given to the href in the Send us message section, you can control which link it will redirect to when you click the button, and in that section you can write down your telegram or the link where they can contact you.</p>
 
-      <h1 className="text-[30px] font-bold" id="footer-section">Footer section</h1>
+      <h1 className="text-[30px] font-bold" id="footer">Footer section</h1>
       <p className="text-[18px] mb-[50px]">Now we will change the data of the Fotter section</p>
 
       <ul className="pl-[15px] flex flex-col gap-y-[25px] list-disc mb-[30px]">
@@ -235,10 +235,26 @@ export default function Home() {
         </li>
 
         <li>
-          <p className="font-bold text-[20px] mb-3">You can change the texts in navbar section if you want</p>
-          <Image width={600} height={300} className="w-full" alt="navbar logo and portfolio name photo" src={'/navbar-texts.png'} />
+          <p className="font-bold text-[20px] mb-3">You can change the texts in footer section and link. <br /> You can leave your social networks here. By changing the link in the href, you can remove yourself from your social network</p>
+          <Image width={600} height={300} className="w-full" alt="navbar logo and portfolio name photo" src={'/footer-texts.png'} />
         </li>
 
+        <li>
+          <p className="font-bold text-[20px] mb-3">You can change your website name in layout.tsx 8th row</p>
+          <Image width={600} height={300} className="w-full" alt="navbar logo and portfolio name photo" src={'/titler.png'} />
+          <Image width={600} height={300} className="w-full" alt="navbar logo and portfolio name photo" src={'/title.png'} />
+        </li>
+
+      </ul>
+
+      <h1 className="text-[21px] mb-3 font-bold">I hope you were able to change your portfolio template without problems, if you have any problems you can contact chatgpt.com to correct your problems. Thank you for the sale and I will leave videos on how to upload this portfolio</h1>
+      <ul className="flex flex-col gap-[6px]">
+        <li>
+          <a href="https://www.youtube.com/watch?v=2HBIzEx6IZA&t" target="_blank" className="font-bold text-blue-600">vercel</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=3rMkaMEgDJI" target="_blank" className="font-bold text-blue-600">netlify</a>
+        </li>
       </ul>
 
     </section>
